@@ -7,9 +7,11 @@ int main(){
     cout << "Enter Num 1 and Num 2: ";
     cin >>num1>>num2;
     cout<< "Before Swap\nNum1 = " << num1<<" \nNum2 = "<<num2;
-    temp = num1;
-    num1 = num2;
-    num2 = temp;
+    // temp = num1;
+    // num1 = num2;
+    // num2 = temp;
+    // cout<< "\nAfter Swap\nNum1 = " << num1<<" \nNum2 = "<<num2;
+    swap(num1, num2);
     cout<< "\nAfter Swap\nNum1 = " << num1<<" \nNum2 = "<<num2;
     return 0;
 }
