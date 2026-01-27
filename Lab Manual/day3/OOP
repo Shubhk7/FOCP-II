@@ -1,0 +1,16 @@
+1. Objects --> Building blocks of OOPs
+2. Class   --> Encapsulate  -> The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users.
+           --> Abstraction -> showing only the necesarry details which are required for the outer world
+           --> Inheritance ->
+
+
+
+There are 3 access specifiers: 
+        --> Private -> means that the data is private to that particular unit and is inaccessible to the outer world.
+                        By default, the access specifier is private
+        --> Public -> means the data is accessible to the outer world.
+        --> protected ->it means the derived class will have acess to protected members of parent class
+                            protected data is accessible to derived class, but inaccessible outer world. while private data inaccessible to derived class also
+
+
+:: is the Scope Resolution operator and is used to tell the scope of particular function which means that you are telling to the compiler that getData function belongs to the class add
