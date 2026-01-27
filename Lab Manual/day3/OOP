@@ -14,3 +14,5 @@ There are 3 access specifiers:
 
 
 :: is the Scope Resolution operator and is used to tell the scope of particular function which means that you are telling to the compiler that getData function belongs to the class add
+if we are defining the function within the class then there is no need to use the scope Resolution operator
+class is a userdefined datatype because class is the collection of similar type of Objects.

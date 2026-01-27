@@ -9,6 +9,7 @@ public:
     void getData();
     void Display();
 };
+
 void getData ::add()
 {
     cout << "Enter numbers: ";
@@ -21,6 +22,8 @@ void Display ::add()
 }
 int main()
 {
-
+    add o1;
+    o1.getData;
+    ai.Display;
     return 0;
 }
