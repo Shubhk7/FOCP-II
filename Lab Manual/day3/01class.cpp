@@ -3,9 +3,7 @@ using namespace std;
 
 class add
 {
-
     int n1, n2;
-
 public:
     void getData();
     void Display();
@@ -14,7 +12,6 @@ public:
 void add ::getData()
 {
     cout << "Enter numbers: ";
-
     cin >> n1 >> n2;
 }
 void add ::Display()
