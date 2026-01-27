@@ -3,6 +3,7 @@ using namespace std;
 
 class add
 {
+
     int n1, n2;
 
 public:
@@ -10,20 +11,20 @@ public:
     void Display();
 };
 
-void getData ::add()
+void add ::getData()
 {
     cout << "Enter numbers: ";
 
     cin >> n1 >> n2;
 }
-void Display ::add()
+void add ::Display()
 {
     cout << n1 + n2;
 }
 int main()
 {
     add o1;
-    o1.getData;
-    ai.Display;
+    o1.getData();
+    o1.Display();
     return 0;
 }
