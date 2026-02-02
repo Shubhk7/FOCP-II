@@ -1,0 +1,8 @@
+there are 2 ways to define a class and its function :
+            --> We can declare the class which consists of data members and member functions.
+                the member function are defined outside the by using scope resolution operator 
+            --> We can define the class by declaring data members and member functions inside the class 
+                the member functions are also defined inside the class
+                in this method we do not need the scope resolution operator
+
+**In C and C++ executions of a progam starts with main function

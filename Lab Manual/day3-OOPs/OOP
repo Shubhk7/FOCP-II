@@ -17,3 +17,10 @@ There are 3 access specifiers:
 if we are defining the function within the class then there is no need to use the scope Resolution operator
 class is a userdefined datatype because class is the collection of similar type of Objects.
 WHen we chave to all or access a Public function, we will be using a .(dot) operator to call the function
+
+Naming Convention
+--> Name the variables as per 
+--> Class name shall start with capital a letter
+--> Function name starts with a small letter and it follows Camel Case Approach
+if the data members would have been kept as public in our class then we can access the data members too via objects
+variable == Data members
