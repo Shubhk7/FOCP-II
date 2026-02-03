@@ -1,0 +1,92 @@
+e need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+We need to generate a lot of random bytes. It is a good idea to perform
+some other action (type on the keyboard, move the mouse, utilize the
+disks) during the prime generation; this gives the random number
+generator a better chance to gain enough entropy.
+gpg: /root/.gnupg/trustdb.gpg: trustdb created
+gpg: directory '/root/.gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/root/.gnupg/openpgp-revocs.d/9808177703EA5F1AECC3AB03F58BEFFF8C4C91FA.rev'
+public and secret key created and signed.
+
+pub   rsa4096 2026-02-02 [SC] [expires: 2028-02-02]
+      9808177703EA5F1AECC3AB03F58BEFFF8C4C91FA
+uid                      Kashyap <shubh.kashyap.7806delhi@hotmail.com>
+sub   rsa4096 2026-02-02 [E] [expires: 2028-02-02]
+
+                                                                                                                                                                                                                 
+┌──(root㉿kali)-[~]
+└─# gpg --list-secret-keys --keyid-format=long
+
+gpg: checking the trustdb
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: next trustdb check due at 2028-02-02
+/root/.gnupg/pubring.kbx
+------------------------
+sec   rsa4096/F58BEFFF8C4C91FA 2026-02-02 [SC] [expires: 2028-02-02]
+      9808177703EA5F1AECC3AB03F58BEFFF8C4C91FA
+uid                 [ultimate] Kashyap <shubh.kashyap.7806delhi@hotmail.com>
+ssb   rsa4096/372DBCF3BC2ADDA4 2026-02-02 [E] [expires: 2028-02-02]
+
+
+
+
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+zk2NLK4r8WMNXmpmpG9qc2HM7dmF
+=HaaU
+-----END PGP PUBLIC KEY BLOCK-----
+                                                                                                                                                                                                                 
+┌──(root㉿kali)-[~]
+└─# 
