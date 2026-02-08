@@ -1,3 +1,4 @@
+
 // Wap to calc av marks of student in 5 subjects and only 5 marks are allowed to enter.
 #include <iostream>
 using namespace std;
