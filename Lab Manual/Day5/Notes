@@ -1,0 +1,4 @@
+getline()  func reads the whole line 
+
+a function is known as method in OOP
+When we are taking the sting input immediately from any other datatype, we have to use Cin.ingnore
