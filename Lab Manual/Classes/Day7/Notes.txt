@@ -1,0 +1,6 @@
+types of Functions based and return type and number of parameter:
+                --> Functions with no return type and no arguments (void ki baat ho rahi hai)
+                --> Functions with datatype and no arguments will be returning somevalues
+                --> Functions with no return type but have arguments (yeh void functions hain jisme arguments pass kiye jaate hain)
+                --> Functions with datatype and have arguments (yeh functions hain jisme arguments pass kiye jaate hain aur kuch value return karte hain)
+                
