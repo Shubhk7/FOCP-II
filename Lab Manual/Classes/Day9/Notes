@@ -1,0 +1,18 @@
+Polymorphism means one name and many forms
+
+
+                        Polymorphism
+                   |                   |
+            Compile Time            Run Time (Dynamic)
+        |               |               |                   |
+    Func Overloading
+
+
+
+
+
+    Funtion Overloading--> Same function name which is performing different tasks 
+    there are few conditions for function Overloading
+            -> Number of Arguments passed in each function can be different
+            -> If the number of Arguments is same, the datatype of atleast 1 Arguments shall be different
+            
