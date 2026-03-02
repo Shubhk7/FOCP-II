@@ -39,7 +39,7 @@ int main()
         }
     }
 
-    cout << "Updated Armor inventory is:\n";
+    cout << "\n\nUpdated Armor inventory is:\n";
     for (int i = 0; i < 2; i++)
     {
         cout << "|";
