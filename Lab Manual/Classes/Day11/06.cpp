@@ -2,16 +2,16 @@
 using namespace std;
 
 class Bank_Account{
-    int Account_Number;
+    string Account_Number;
     long Initial_Balance;
     public:
-    Bank_Account(int AN, long IB){
+    Bank_Account(string AN, long IB){
         Account_Number = AN;
         Initial_Balance = IB;
     }
-    Bank_Account(long IB){
-        Account_Number = 123542365;
-        Initial_Balance = IB;
+    Bank_Account(){
+        Account_Number = "123542365";
+        Initial_Balance = 0;
     }
     void display(){
         cout << "Account Number: " << Account_Number << "\nInitial Balance: " << Initial_Balance << endl;
@@ -19,7 +19,10 @@ class Bank_Account{
 };
 
 int main(){
-    Bank_Account B1(500000);
+    Bank_Account B1("987654321", 100000);
     B1.display();
+    cout << "\n\n";
+    Bank_Account B2;
+    B2.display();
     return 0;
 }
