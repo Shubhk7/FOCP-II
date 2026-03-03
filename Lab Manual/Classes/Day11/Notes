@@ -21,3 +21,16 @@
         -> these are the ones which takes reference of another object as a parameter.
         -> in this the values of one object is entirely copied to another object.
         
+
+    Constructor Overloading:
+        -> is where we are defining more than one constructor but every conductor is doing a different task or initialization.
+        ->  the number of arguments or parameters should be different in each constructor
+            -> if the number of arguments is same then the data type of the arguments should be different 
+            -> if the datatype of every argument is same, the sequence of the arguments should be different
+            -> if first contructor is taking int, double then second constructor may take double, int
+
+Destructors
+    ->  these are used to destroy the object and release the memory which occupied by the objects
+    -> these are automatically called when we close the programs
+    -> We can explicitly call a destructor in our program.
+    -> They also have the same names as that of a class but they are followed by a tilde (~) symbol
