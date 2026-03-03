@@ -1,0 +1,23 @@
+--> Constructors are the special member functions that are used to initailize the objects
+--> It has the same name as that of a clpass
+--> Constructors do not have a return type, not even void
+--> They're always declared in the public section of the class
+--> If we have not created a constructor, the compiler will create a default constructor for us, which will initialize all the data members to some garbage value in case of non-primitive data types value
+--> We can have multiple constructors in a class, which is called constructor overloading
+    Types of constructora:
+        -> Default Constructor  (with no arguments)
+        -> Parameterized Constructor (with arguments)
+        -> Copy Constructor (Copy of the object as an argument)
+
+    Default Constructor: 
+        -> it is the one which contains no argument
+        -> it is automatically created if we do not created whe we do not create it 
+        
+    Parameterized Constructor: 
+        -> these are the ones which contains a list of parameters or arguments 
+        -> these arguments are used to initialize the data members of the class
+
+    Copy Constructor:
+        -> these are the ones which takes reference of another object as a parameter.
+        -> in this the values of one object is entirely copied to another object.
+        
