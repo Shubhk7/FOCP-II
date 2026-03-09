@@ -63,5 +63,3 @@ int main()
     L3.Display();
     return 0;
 }
-
-
