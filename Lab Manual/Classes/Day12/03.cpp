@@ -1,25 +1,25 @@
 #include <iostream>
 using namespace std;
 
-class Laptop
+class Mobile
 {
     string brand;
     double price;
     int RAM;
 public:
-    Laptop()
+    Mobile()
     {
         brand = "Generic";
         price = 5000;
         RAM = 32;
     }
-    Laptop(string b, double p)
+    Mobile(string b, double p)
     {
         brand = b;
         price = p;
         RAM = 8;
     }
-    Laptop(double p, int s)
+    Mobile(double p, int s)
     {
         brand = "Something";
         price = p;
@@ -31,7 +31,7 @@ public:
     }
 };
 int main(){
-    Laptop m1, m2("Apple", 100000), m3(50000, 128);
+    Mobile m1, m2("Apple", 100000), m3(50000, 128);
     m1.Display();
     m2.Display();
     m3.Display();

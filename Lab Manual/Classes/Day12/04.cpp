@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Laptop
+class Mobile
 {
     string brand;
     double price;
@@ -52,7 +52,7 @@ public:
 };
 int main()
 {
-    Laptop L1, L2, L3;
+    Mobile L1, L2, L3;
     
     L1.setDetails("HP");
     L2.setDetails("Apple", 16);
