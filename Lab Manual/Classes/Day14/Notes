@@ -1,0 +1,12 @@
+Inheritence is the mechanism of aquiring one class's property by another class 
+the class from which the property is derived is called parent class or super class or base class
+the class which aquires the property is called child class or sub class or derived class
+
+NOTE: Private members of the parent class are not inherited by the child class. Only public and protected members are inherited.
+
+Types of inheritence:
+    --> Single-Level inheritence: Where there is only one parent class and one child class
+    --> Multiple inheritence: when a child class inherits from more than one parent class
+    --> Multilevel inheritence: when a child class inherits from a parent class which is also a child class of another parent class
+    --> Hierarchical inheritence: when multiple child classes inherit from a single parent class
+    --> Hybrid inheritence: when a combination of two or more types of inheritence is used
