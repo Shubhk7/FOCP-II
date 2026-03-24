@@ -10,3 +10,8 @@ Types of inheritence:
     --> Multiple inheritence: when a child class inherits from more than one parent class
     --> Hybrid inheritence: It is a combination of Multi-level and Multiple inheritence
     --> Hierarchical inheritence: when multiple child classes inherit from a single parent class
+
+if We are deriving parent class in public mode then the public members of parent class will be public in child class and protected members of parent class will be protected in child class
+
+if we are deriving a class in private mode then all the data of parent class becomes private in child class and it cannot be accessed by the child class
+if we are 
