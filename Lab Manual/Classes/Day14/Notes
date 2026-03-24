@@ -6,7 +6,7 @@ NOTE: Private members of the parent class are not inherited by the child class. 
 
 Types of inheritence:
     --> Single-Level inheritence: Where there is only one parent class and one child class
+    --> Multi-level inheritence: In this type of inheritance, there are multiple levels of single inheritance. Here a child class is parent of another class
     --> Multiple inheritence: when a child class inherits from more than one parent class
-    --> Multilevel inheritence: when a child class inherits from a parent class which is also a child class of another parent class
+    --> Hybrid inheritence: It is a combination of Multi-level and Multiple inheritence
     --> Hierarchical inheritence: when multiple child classes inherit from a single parent class
-    --> Hybrid inheritence: when a combination of two or more types of inheritence is used
