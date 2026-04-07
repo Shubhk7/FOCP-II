@@ -1,0 +1,2 @@
+Whenever we create a derived class constructor, it is mandatory to create a base class constructor. 
+it is the responsibility of derived class object to call the base class constructor also.
