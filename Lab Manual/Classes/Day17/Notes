@@ -1,0 +1,1 @@
+When we are deriving a class in private mode all the private, protected and public data becomes the private data of the derived class.

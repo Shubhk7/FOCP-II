@@ -1,3 +1,8 @@
 Whenever we create a derived class constructor, it is mandatory to create a base class constructor. 
 it is the responsibility of derived class object to call the base class constructor also.
 derived class constructor initialises its own constructor
+
+Private Data is inaccessible to any other class 
+protected daya lies between private and public,  which means it can be accesssed by inherited class, but it can't be accessed outside the class
+
+public data 

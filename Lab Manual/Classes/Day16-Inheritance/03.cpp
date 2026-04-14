@@ -5,26 +5,28 @@ using namespace std;
 
 class base{
     string father_name;
+    int Age;
     public:
-    base(string name){
+    base(string name, int age){
         father_name = name;
-        cout<<father_name<<endl;
+        age = age;
+        cout<<father_name<<endl<<age<<endl;
     }
 };
 class derived :public base{
     string name;
     int age;
     public:
-    derived(string father_name, string name, int age): base(father_name){
+    derived(string father_name, int father_age, string name, int age): base(father_name, father_age){
         name = name;
         age = age;
-        cout<<name<<" "<<age<<endl;
+        cout<<name<<endl<<age<<endl;
     }
 };
 
 
 
 int main(){
-    derived d("LAPTOP-K22BTPU7", "LAPTOP-MQIFDOEF", 2);
+    derived d("LAPTOP-K22BTPU7", 11, "LAPTOP-MQIFDOEF", 2);
     return 0;
 }
