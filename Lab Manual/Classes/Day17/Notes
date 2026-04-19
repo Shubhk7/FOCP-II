@@ -1,1 +1,58 @@
-When we are deriving a class in private mode all the private, protected and public data becomes the private data of the derived class.
+create a class the studymarks .create a class activity marks which stores the marks scored by students in extracurriculars activity.  create a class total marks which is deriverd from study marks and activity marks and it stores the total marks as the sum of study marks and activity marks . in main function make a object of total marks and call all the other function which are present in base classes
+
+#include<iostream>
+using namespace std;
+
+class Studymarks
+{
+    protected :
+    float marks ;
+    public :
+
+    void study_marks()
+    {
+        cout << "Enter study marks ";
+        cin>> marks ;
+    }
+};
+
+class ActivityMatks
+{
+    protected :
+    float sportmarks ;
+    public :
+    void activity_marks()
+    {
+        cout << "Enter sportmarks";
+        cin >> sportmarks;
+    }
+};
+
+class Totalmarks : public Studymarks , public ActivityMatks 
+{
+    float totalmarks ;
+    public :
+    void total_marks()
+    {
+        totalmarks = marks + sportmarks ;
+        cout << "Total marks are " << totalmarks ;
+    }
+};
+
+int main()
+{
+    Totalmarks t1;
+    t1.study_marks;
+    t1.activity_marks;
+    t1.total_marks;
+    return 0;
+
+}
+When we are deriving a class in private mode all the protected and public data becomes the private data of the derived class.
+
+the ambiguity problem occurs mainly in multiple inheritance when the compiler cannot determine which base class member to use because two or more base classes have members with the same name.
+
+This often happens in the diamond problem scenario.
+
+*Diamond problem*
+    -> 
