@@ -1,0 +1,42 @@
+File Handling deals with reading and writing from different files such as a text file, .py file, or .cpp file (any kind of file)
+To Work with file Handling we need fstream header file to work with the files
+
+fstream is the library which is used to work with files
+
+ofstream is used for printing output in the file and ifstream which is input file stream which us used to extract input from files
+
+we can have any name of this object 
+
+whatever name of the object a user has kept, that object will be used for working files
+but for simplicity purpose, we can take the name of the object as fout and fin
+
+open is the command or predefined function to open a file and we have to mention the complete path of the file
+if the file exists the object will do the operation on existing file, but if the file doesn't exist the object creates the file, in the specified path, if the path is also not given, then the file is created in the same directory of the code file
+
+mode of File:
+    -> ios::out --> Write mode
+    -> ios::in --> Reading mode
+    -> ios::app --> append into file
+    -> ios::trunc --> Erase data from file
+    -> ios::binary --> works with binary files
+
+
+
+Exception Handling
+Compile time errors are those errors which may come during compile time and mostly they are syntactical errors which may arise due to the wrong syntax such as missing semicolon or spelling mistake in any predefined function
+but exceptions are runtime errors which occurs due to some mistake in the logic written by the developer for example, division by zero, array index out of bounds(suppose the size of array is 4 and we are trying to access the 5th element)
+
+
+When an exception occurs, it abruptly terminated the program if we have not written any mechanism to handle the exception 
+we handle the exception by using 3 keywords, 
+                                           --> try
+                                           --> throw
+                                           --> catch
+we write the portion of code in try block which might give an error
+
+catch block is used to catch the exception, thrown by throw keyword
+
+    ->Multiple catch blocks in exception handling 
+            we can have multiple catch block for a single try statement and mostly we use one try statement followed by multiple catch blocks which means we try to keep multiple exception in 1 try statement but it can be caught by respective catch block 
+            
+            if the exception doesn't have a respective a catch block then it will go to the catch block which contains 3 dots and this block always comes in the end

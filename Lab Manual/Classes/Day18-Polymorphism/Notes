@@ -1,0 +1,22 @@
+                                       Polymorphism
+                                    _________|___________
+                                    |                  |
+                            Compile-Time            Run-time
+                            ______|______               |
+                            |          |        Funtion Overriding
+                        Funtion     Operator   (implimented via virtual function)
+                      Overloading  Overloading
+
+
+
+
+
+
+
+
+    Funtion Overriding/method Overriding/virtual Overriding/Runtime Polymorphism
+        -> Runtime Polymorphism is when my object decides which Funtion to call during Runtime
+        -> object doesn't know which funtion to be called during Compile time, it achieved by method Overriding
+        -> method Overriding means Overriding the same function in derived class and it shall have the same name, same number of arguements, entirely same signature as that of base class but we can define the functionality in a different way than the base class
+
+We need a base class pointer and a derived class object.
